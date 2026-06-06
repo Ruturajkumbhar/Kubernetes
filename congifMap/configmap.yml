@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: app-config
+  namespace: config-secret-demo
+
+data:
+  APP_NAME: "Kubernetes Demo App"
+  APP_ENV: "Production"
+  APP_COLOR: "Blue"
+
